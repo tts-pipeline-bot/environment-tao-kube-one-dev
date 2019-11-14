@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:tao-kube-one/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dmytro.mykhailov+tts-pipeline-bot@devraccoon.com
+  token: vault:tao-kube-one/pipelineUser:token
+  username: tts-pipeline-bot
+prow:
+  hmacToken: vault:tao-kube-one/prow:hmacToken
